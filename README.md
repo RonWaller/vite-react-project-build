@@ -6,18 +6,15 @@ This repository will help create a boilerplate React javascript project using Vi
 
 <br>
 
-## Badges
+## Dependencies
 
-![Vite (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/RonWaller/vite-vanilla-project-starter/dev/vite?style=flat-square&color=brightgreen)
-![Babel (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/RonWaller/vite-vanilla-project-starter/dev/@babel/core?style=flat-square)
-![Eslint (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/RonWaller/vite-vanilla-project-starter/dev/eslint?style=flat-square&color=yellow)
-![Prettier (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/RonWaller/vite-vanilla-project-starter/dev/prettier?style=flat-square&color=red)
-![Typescript (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/RonWaller/vite-vanilla-project-starter/dev/typescript?style=flat-square&color=orange)
+![React](https://img.shields.io/github/package-json/dependency-version/RonWaller/vite-react-project-build/react?style=flat-square)
+![React-dom](https://img.shields.io/github/package-json/dependency-version/RonWaller/vite-react-project-build/react-dom?style=flat-square&color=red)
 
 ## Dev Dependencies
 
-- [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
+![Vite](https://img.shields.io/github/package-json/dependency-version/RonWaller/vite-react-project-build/dev/vite?style=flat-square&color=yellow)
+![Vitejs/plugin-react](https://img.shields.io/github/package-json/dependency-version/RonWaller/vite-react-project-build/dev/@vitejs/plugin-react?style=flat-square&color=green)
 
 <br>
 
@@ -27,55 +24,31 @@ This repository will help create a boilerplate React javascript project using Vi
 
 ## Usage
 
-There two options to use this repo
-
 - Download Zip file
-- Clone repo
 
-## Installation
-
-#### Download Zip File
+## Download Zip File
 
 - Click Code Button (1)
 - Download Zip (2)
 - Unzip file
-- Move folder to project location
-  - Rename folder to project name OR
-  - Copy repo folder for each project and rename to project name
+- Move folder to starter project location
+  1. Start new project
+  1. Copy repo folder
+  1. Rename folder to project name
 
 </br>
 
 ![image](./images/zip_download.jpg)
 
-#### Clone the project
-
-- Click Clone Button (1)
-- Select HTTPS
-- Copy link (2)
-
 </br>
 
-![image](./images/clone_repo.jpg)
+## Installation
 
-## Open Terminial
+### Open Terminial
 
-- Navigate to projects folder
-- Clone repository into projects folder
-  - Rename folder to project name OR
-  - Copy repo folder for each project and rename to project name
+- Navigate to project folder
 
-```bash
-  git clone https://github.com/RonWaller/vite-vanilla-project-starter.git
-```
-
-Go to the project directory
-
-- Rename folder to your project name
-
-```bash
-  mv vite-vanilla-project-starter your-project-name-here
-  cd your-project-name-here
-```
+---
 
 Install dependencies
 
@@ -91,7 +64,7 @@ Start the dev server
 
 ## Build Project
 
-To build this project run
+To build for production
 
 ```bash
   npm run build
