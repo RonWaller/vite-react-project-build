@@ -1,10 +1,18 @@
 ![image](./images/vite-react-banner.jpg)
 
-# Vite React Project Builder
+# Vite React Project Builder <!-- omit in toc -->
 
 This repository will help create a boilerplate React javascript project using Vite. When downloading the repo locally all future projects can be created just by copying and renaming folder to your project name.
 
-<br>
+- [Dependencies](#dependencies)
+- [Dev Dependencies](#dev-dependencies)
+- [Tech Stack](#tech-stack)
+- [How to Use](#how-to-use)
+- [Installation](#installation)
+  - [Open Terminial](#open-terminial)
+  - [Build Project](#build-project)
+  - [Open in Editor (VS Code)](#open-in-editor-vs-code)
+- [License](#license)
 
 ## Dependencies
 
